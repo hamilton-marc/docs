@@ -131,12 +131,16 @@
     "lit": "2.4.1",
     "proj4": "2.8.1",
     "promise-file-reader": "^1.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "vanilla-colorful": "^0.5.3"
   },
   "devDependencies": {
     "@rollup/plugin-replace": "3.1.0",
     "@rollup/pluginutils": "4.1.0",
     "@types/iframe-resizer": "^3.5.9",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
     "async": "3.2.2",
@@ -310,7 +314,9 @@
     "@hilla/generator-typescript-plugin-push": "$@hilla/generator-typescript-plugin-push",
     "@hilla/form": "$@hilla/form",
     "@hilla/generator-typescript-plugin-backbone": "$@hilla/generator-typescript-plugin-backbone",
-    "@hilla/generator-typescript-cli": "$@hilla/generator-typescript-cli"
+    "@hilla/generator-typescript-cli": "$@hilla/generator-typescript-cli",
+    "react": "$react",
+    "react-dom": "$react-dom"
   },
   "vaadin": {
     "dependencies": {
@@ -460,6 +466,6 @@
       "workbox-core": "6.5.4",
       "workbox-precaching": "6.5.4"
     },
-    "hash": "c741d4673cf94de2b2e4af950f58149184c418f9673d02f161aa82d7e38324ae"
+    "hash": "c91449565e937adb1af162d3bfc84f80ee3006d95cc330358720cd66839d911f"
   }
 }
