@@ -22,12 +22,14 @@ public class MoneyField extends CustomField<Money> {
     public MoneyField() {
         amount = new TextField();
         // Sets `aria-label` for screen readers
-        amount.getElement().executeJs("this.focusElement.setAttribute('aria-label', 'Amount');");
+        amount.getElement().executeJs(
+                "this.focusElement.setAttribute('aria-label', 'Amount');");
 
         currency = new Select<>();
         currency.setItems("AUD", "CAD", "CHF", "EUR", "GBP", "JPY", "USD");
         currency.setWidth("6em");
-        currency.getElement().executeJs("this.focusElement.setAttribute('aria-label', 'Currency');");
+        currency.getElement().executeJs(
+                "this.focusElement.setAttribute('aria-label', 'Currency');");
 
         HorizontalLayout layout = new HorizontalLayout(amount, currency);
         // Removes default spacing
