@@ -32,9 +32,11 @@ endif::[]
 
 == Backend
 
+Once you have created the Hilla application, you can begin securing it by installing and configuring SSO Kit on the backend. The following section shows to block unauthorized users from using a button in the example application. You can install and update SSO Kit by adding it as a dependency to your application in the `pom.xml` file.
+
 === Add the SSO Kit Dependency
 
-Add the `sso-kit-starter` module and other required dependencies to the [filename]`pom.xml` of a Vaadin application like so:
+Add the `sso-kit-starter` module and other required dependencies to the [filename]`pom.xml` of a Hilla application like so:
 
 .[filename]`pom.xml`
 [source,xml]
@@ -133,6 +135,8 @@ Start the application using the `./mvnw` command (`.\mvnw` on Windows). Then try
 
 
 == Frontend
+
+Once the backend is secured, you can begin extending authentication features to the frontend. The following section shows how to display user information, like a name, on secured views and enable users to log in and out.
 
 === Implement authentication state
 
