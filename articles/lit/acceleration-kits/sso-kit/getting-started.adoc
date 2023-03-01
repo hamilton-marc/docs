@@ -32,7 +32,7 @@ endif::[]
 
 == Backend
 
-Once you have created the Hilla application, you can begin securing it by installing and configuring SSO Kit on the backend. The following section shows to block unauthorized users from using a button in the example application. You can install and update SSO Kit by adding it as a dependency to your application in the `pom.xml` file.
+Once you've created the Hilla application, you can begin securing it by installing and configuring SSO Kit on the backend. The following section shows how to block unauthorized users from using a button an application. You can install and update SSO Kit by adding it as a dependency to your application in the `pom.xml` file.
 
 === Add the SSO Kit Dependency
 
@@ -136,7 +136,7 @@ Start the application using the `./mvnw` command (`.\mvnw` on Windows). Then try
 
 == Frontend
 
-Once the backend is secured, you can begin extending authentication features to the frontend. The following section shows how to display user information, like a name, on secured views and enable users to log in and out.
+Once the backend is secure, you can begin extending authentication features to the frontend. The following section shows how to display user information (e.g., a name) on secured views and enable users to log in and out.
 
 === Implement authentication state
 
